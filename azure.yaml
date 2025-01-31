@@ -5,8 +5,7 @@ services:
   app:
     language: dotnet
     project: ./FunctionApp2.AppHost/FunctionApp2.AppHost.csproj
-    host: 
-      type: containerapp
-      ingress: 
-        external: true
-        targetPort: 80
+    host: containerapp
+    ingress: 
+      external: true
+      targetPort: 80
