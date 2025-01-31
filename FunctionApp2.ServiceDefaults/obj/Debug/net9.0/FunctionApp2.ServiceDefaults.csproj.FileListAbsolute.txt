@@ -1,0 +1,12 @@
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\bin\Debug\net9.0\FunctionApp2.ServiceDefaults.deps.json
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\bin\Debug\net9.0\FunctionApp2.ServiceDefaults.dll
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\bin\Debug\net9.0\FunctionApp2.ServiceDefaults.pdb
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.csproj.AssemblyReference.cache
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.GeneratedMSBuildEditorConfig.editorconfig
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.AssemblyInfoInputs.cache
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.AssemblyInfo.cs
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.csproj.CoreCompileInputs.cache
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.dll
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\refint\FunctionApp2.ServiceDefaults.dll
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\FunctionApp2.ServiceDefaults.pdb
+Q:\source\FunctionApp2\FunctionApp2.ServiceDefaults\obj\Debug\net9.0\ref\FunctionApp2.ServiceDefaults.dll

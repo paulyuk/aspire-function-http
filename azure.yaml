@@ -1,0 +1,8 @@
+# yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
+
+name: function-app2
+services:  
+  app:
+    language: dotnet
+    project: ./FunctionApp2.AppHost/FunctionApp2.AppHost.csproj
+    host: containerapp
