@@ -1,6 +1,8 @@
 # yaml-language-server: $schema=https://raw.githubusercontent.com/Azure/azure-dev/main/schemas/v1.0/azure.yaml.json
 
-name: function-app2
+name: functions-quickstart-dotnet-azd-aspire
+metadata:
+  template: functions-quickstart-dotnet-azd-aspire@1.0.1
 services:  
   app:
     language: dotnet
@@ -8,4 +10,4 @@ services:
     host: containerapp
     docker:
       context: .
-      dockerfile: ./FunctionApp2.AppHost/Dockerfile
+      dockerfile: ./Dockerfile
