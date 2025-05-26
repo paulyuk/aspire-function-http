@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.12.35707.178 d17.12
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2", "FunctionApp2\FunctionApp2.csproj", "{0D4656F5-40AD-4D27-BC74-AAFB0736FE9E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "function", "function\function.csproj", "{0D4656F5-40AD-4D27-BC74-AAFB0736FE9E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2.AppHost", "FunctionApp2.AppHost\FunctionApp2.AppHost.csproj", "{91FAAB16-0E39-495F-B3D5-C8DA5FA0F571}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "apphost", "apphost\apphost.csproj", "{91FAAB16-0E39-495F-B3D5-C8DA5FA0F571}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FunctionApp2.ServiceDefaults", "FunctionApp2.ServiceDefaults\FunctionApp2.ServiceDefaults.csproj", "{4BC71822-4779-464B-A3A6-F98BAA41FCEC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServiceDefaults", "ServiceDefaults\ServiceDefaults.csproj", "{4BC71822-4779-464B-A3A6-F98BAA41FCEC}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

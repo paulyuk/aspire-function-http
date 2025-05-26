@@ -4,7 +4,7 @@ name: function-app2
 services:  
   app:
     language: dotnet
-    project: ./FunctionApp2.AppHost/FunctionApp2.AppHost.csproj
+    project: ./apphost/apphost.csproj
     host: containerapp
     docker:
       context: .
