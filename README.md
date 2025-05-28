@@ -29,7 +29,7 @@ In Visual Studio or Visual Studio Code you can simply F5.
 
 From the command line, just do a `dotnet run` inside the AppHost folder:
 ```shell
-cd FunctionApp2.AppHost
+cd apphost
 dotnet run
 ```
 
