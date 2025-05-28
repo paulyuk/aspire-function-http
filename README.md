@@ -4,6 +4,16 @@
 
 ![image](https://github.com/user-attachments/assets/ca6b7694-5dc4-440c-a1a7-11c946404be8)
 
+
+## Overview
+
+**Azure Functions with .NET Aspire** integrates serverless computing with cloud-native application development. This template demonstrates how to build, test, and deploy Azure Functions in an Aspire application architecture.
+
+### Key Use Cases
+
+1. **Microservices Integration** - Use Azure Functions for event-driven processing within a broader microservices architecture, managed by Aspire.
+2. **API Development** - Create scalable HTTP endpoints that can be independently deployed and scaled, while maintaining development consistency with other Aspire components.
+
 ## Pre-requisites
 
 1. **.NET 9 SDK** - Make sure you have the latest .NET 9 SDK installed. Download from [dot.net](https://dotnet.microsoft.com/download/dotnet/9.0).
