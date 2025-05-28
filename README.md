@@ -4,6 +4,25 @@
 
 ![image](https://github.com/user-attachments/assets/ca6b7694-5dc4-440c-a1a7-11c946404be8)
 
+## Pre-requisites
+
+1. **.NET 9 SDK** - Make sure you have the latest .NET 9 SDK installed. Download from [dot.net](https://dotnet.microsoft.com/download/dotnet/9.0).
+   ```shell
+   # Verify installation
+   dotnet --version
+   # Should output 9.0.300 or higher
+   ```
+
+2. **Aspire Templates** - Install the Aspire project templates:
+   ```shell
+   dotnet new install Aspire.ProjectTemplates
+   ```
+
+3. **Azure Development Tools** (optional for deployment):
+    - [Azure Functions Core Tools](https://learn.microsoft.com/azure/azure-functions/functions-run-local#install-the-azure-functions-core-tools)
+    - [Azurite Storage Emulator](https://learn.microsoft.com/azure/storage/common/storage-use-azurite)
+    - [Azure Developer CLI (azd)](https://learn.microsoft.com/azure/developer/azure-developer-cli/install-azd)
+
 ## Running
 
 In Visual Studio or Visual Studio Code you can simply F5.
@@ -22,22 +41,18 @@ azd up
 
 ## Code
 
-Check out the main simplistic function code with HTTP trigger.  Edit as you like.
+This project contains several key files that demonstrate Azure Functions with .NET Aspire:
 
-[httpGetFunction.cs](function/httpGetFunction.cs)
-[httpPostFunction.cs](function/httpPostBodyFunction.cs)
+### Function Code
+* [`function/httpGetFunction.cs`](function/httpGetFunction.cs) - HTTP GET trigger example
+* [`function/httpPostBodyFunction.cs`](function/httpPostBodyFunction.cs) - HTTP POST with JSON body example
 
-Also here is where the Function project is wired up with Aspire in the AppHost:
+### Aspire Integration
+* [`apphost/Program.cs`](apphost/Program.cs) - Where the Function project is wired up with Aspire
 
-[Program.cs](apphost/Program.cs)
+### Testing
+* [`function/test/test.http`](function/test/test.http) - HTTP request tests for local and deployed environments
+* [`function/test/loadtest.sh`](function/test/loadtest.sh) - Load testing script for performance evaluation
 
-Test the app with this file:
-
-[test.http](function/test/test.http)
-
-Load test the app with this file:
-[loadtest.sh](function/test/loadtest.sh)
-
-Here is a starting point for a Dockerfile that shows example of adding FFMPEG:
-
-[Dockerfile](Dockerfile)
+### Deployment
+* [`Dockerfile`](Dockerfile) - Example Dockerfile with FFMPEG installation
