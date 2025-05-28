@@ -24,16 +24,20 @@ azd up
 
 Check out the main simplistic function code with HTTP trigger.  Edit as you like.
 
-[Function1.cs](FunctionApp2\Function1.cs)
+[httpGetFunction.cs](function/httpGetFunction.cs)
+[httpPostFunction.cs](function/httpPostBodyFunction.cs)
 
 Also here is where the Function project is wired up with Aspire in the AppHost:
 
-[Program.cs](FunctionApp2.AppHost\Program.cs)
+[Program.cs](apphost/Program.cs)
 
 Test the app with this file:
 
-[test.http](FunctionApp2\test.http)
+[test.http](function/test/test.http)
 
-Here is a starting point for a Dockerfile (Note: I want to further validate with team because there was no publish step):
+Load test the app with this file:
+[loadtest.sh](function/test/loadtest.sh)
+
+Here is a starting point for a Dockerfile that shows example of adding FFMPEG:
 
 [Dockerfile](Dockerfile)

@@ -1,0 +1,31 @@
+@localUrl = http://localhost:7071
+@deployedUrl = https://<your app and region>.azurecontainerapps.io
+
+# Tip: You might need to modify the port value on the 
+# localhost URL when debugging in Visual Studio.
+
+### Local requests
+GET {{localUrl}}/api/httpget HTTP/1.1
+
+###
+
+GET {{localUrl}}/api/httpget?name=World HTTP/1.1
+
+###
+
+POST {{localUrl}}/api/httppost HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Awesome Developer",
+    "age": 25
+}
+
+### Deployed requests
+POST {{deployedUrl}}/api/httppost HTTP/1.1
+content-type: application/json
+
+{
+    "name": "Awesome Developer",
+    "age": 25
+}
